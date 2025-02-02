@@ -1,7 +1,7 @@
 html {
     --sz: 24px;
-    --c1: #ffffff;
-    --c2: #024c9e;
+    --c1: #1d5a0a;
+    --c2: #8ae435;
     --ts: 50%/calc(var(--sz) * 10) calc(var(--sz) * 10);
     --bp: calc(var(--sz) * -5) calc(var(--sz) * -5);
     --bg: 
