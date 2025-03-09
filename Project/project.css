@@ -1,28 +1,49 @@
 header{
-    font-size: xx-large
-    
-    
+    font-size: xx-large;
+    color: antiquewhite;
+  
+}
+body{
+    background-color: rgb(154, 196, 222)
 }
 
-h1{
+h1 {
     font-size: larger;
+    color: antiquewhite;
 }
 
-
-.h2{
+h2 {
     text-align: center;
-    font-size: medium;
+    color: rgb(7, 87, 137);
+
 }
+h3{
+    color:rgb(7, 87, 137);
+    font-size: small;
+
+
+}
+span{
+    color:rgb(154, 196, 222);
+
+}
+
+p{
+    color: rgb(42, 119, 167);
+}
+
 span{
     display: flex;
     justify-content: center;
 }
+
 ul {
     list-style-type: none ;
     margin: 0;
     padding:0;
 
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -33,10 +54,17 @@ ul {
 .nav-links li{
     display: inline-block;
     margin-left: 20px;
-
+   
 }
+
 .nav-links li a{
-    color:blueviolet;
+    color:rgb(42, 119, 167);
     padding: 10px 15px;
     display: inline-block;
+
+}
+.dropdown{
+    background-color:rgb(42, 119, 167);
+   
+
 }
