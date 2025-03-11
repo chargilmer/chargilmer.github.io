@@ -41,6 +41,8 @@ ul {
     list-style-type: none ;
     margin: 0;
     padding:0;
+    align-content: center;
+
 
 }
 
@@ -49,18 +51,24 @@ ul {
     margin: 0 auto;
     padding: 0 20 px ;
     overflow: hidden;
+    align-items: center;
 
 }
 .nav-links li{
     display: inline-block;
     margin-left: 20px;
+    align-items: center;
    
 }
+
 
 .nav-links li a{
     color:rgb(42, 119, 167);
     padding: 10px 15px;
     display: inline-block;
+    align-items: center;
+    
+  
 
 }
 .dropdown{
