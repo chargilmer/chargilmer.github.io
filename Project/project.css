@@ -18,7 +18,6 @@ h1 {
     color: rgb(25, 18, 48);
     font-size: 30px;
     font-family: "Audiowide", sans-serif;
-    
 
 
 }
@@ -29,8 +28,7 @@ h2 {
     padding: 35px;
     font-family: "Stalinist One", sans-serif;
     text-align: center;
-   
-    
+
     
 }
 h3{
@@ -96,8 +94,6 @@ nav{
 
 .nav a{
     color:rgb(134, 117, 188)
-
-    
 
 }
 .dropdown{
