@@ -1,35 +1,61 @@
 header{
-    font-size: xx-large;
-    color: antiquewhite;
-  
+    font-size: 60px;
+    color: rgb(25, 18, 48);
+    font-family: "Stalinist One", sans-serif;
+    
 }
 body{
-    background-color: rgb(154, 196, 222)
+    background-color: rgb(134, 117, 188);
+    margin: 0;
+    
+   
 }
 
 h1 {
-    font-size: larger;
-    color: antiquewhite;
+
+    text-align: center;
+    color: rgb(25, 18, 48);
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+    
+
+
 }
 
 h2 {
-    text-align: center;
-    color: rgb(7, 87, 137);
-
+    font-size: 50px;
+    color: rgb(48, 34, 95);
+    padding: 35px;
+    font-family: "Stalinist One", sans-serif;
+   
+    
+    
 }
 h3{
-    color:rgb(7, 87, 137);
-    font-size: small;
+    color: rgb(134, 117, 188);
+    font-size: 25px;
+    padding: 30px;
+    font-family: "Audiowide", sans-serif;
 
-
+}
+h4{
+    font-size: 30px;
+    color:rgb(25, 18, 48);
+    text-align: center;
+    font-family: "Stalinist One", sans-serif;
 }
 span{
-    color:rgb(154, 196, 222);
+    color:rgb(134, 117, 188);
+    padding: 15px;
+    font-family: "Stalinist One", sans-serif;
 
 }
-
 p{
-    color: rgb(42, 119, 167);
+    color: rgb(48, 34, 95);
+    font-size: 28px;
+    padding: 20px;
+    font-family: "Audiowide", sans-serif;
+
 }
 
 span{
@@ -40,10 +66,10 @@ span{
 ul {
     list-style-type: none ;
     margin: 0;
-    padding:0;
-    align-content: center;
-
-
+    padding:20px;
+    
+    margin: 30px;
+    
 }
 
 .container {
@@ -51,28 +77,42 @@ ul {
     margin: 0 auto;
     padding: 0 20 px ;
     overflow: hidden;
-    align-items: center;
-
-}
-.nav-links li{
-    display: inline-block;
-    margin-left: 20px;
-    align-items: center;
    
 }
 
+nav{
+    display: flex;
+    height:auto;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:  rgb(25, 18, 48);
+    padding: 0px;
+    font-size: 25px;
 
-.nav-links li a{
-    color:rgb(42, 119, 167);
-    padding: 10px 15px;
-    display: inline-block;
-    align-items: center;
+}
+
+.nav a{
+    color:rgb(134, 117, 188)
+
     
-  
 
 }
 .dropdown{
-    background-color:rgb(42, 119, 167);
-   
-
+    background-color:rgb(48, 34, 95);
+    font-size: 25px;
+    padding: 40px;
+    
 }
+.stalinist-one-regular {
+    font-family: "Stalinist One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .top {
+    color: rgb(25, 18, 48);
+  }
