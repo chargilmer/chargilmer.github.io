@@ -85,15 +85,13 @@ ul {
 nav{
     display: flex;
     height:auto;
+    min-width:auto;
     flex-direction:row;
     justify-content: space-between;
-    background-color:  rgb(25, 18, 48);
+    background-color: rgb(25, 18, 48);
     padding: 0px;
     font-size: 25px;
-    text-emphasis-color: rgb(255, 255, 255);
-
 }
-
 .nav a{
     color:rgb(134, 117, 188)
 
