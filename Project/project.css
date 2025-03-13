@@ -2,7 +2,7 @@ header{
     font-size: 60px;
     color: rgb(25, 18, 48);
     font-family: "Stalinist One", sans-serif;
-    align-items: center;
+    text-align: center;
     
 }
 body{
@@ -36,6 +36,7 @@ h3{
     font-size: 25px;
     padding: 30px;
     font-family: "Audiowide", sans-serif;
+    text-align: center;
 
 }
 h4{
@@ -48,14 +49,15 @@ span{
     color:rgb(134, 117, 188);
     padding: 15px;
     font-family: "Stalinist One", sans-serif;
+    text-align: center;
 
 }
 p{
     color: rgb(48, 34, 95);
     font-size: 28px;
-    padding: 20px;
+    padding: 30px;
     font-family: "Audiowide", sans-serif;
-    align-items: center;
+    text-align: center;
 
 }
 
@@ -68,7 +70,6 @@ ul {
     list-style-type: none ;
     margin: 0;
     padding:20px;
-    
     margin: 30px;
     
 }
