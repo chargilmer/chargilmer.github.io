@@ -6,7 +6,7 @@ function randomValueFromArray(array){
   const random = Math.floor(Math.random()*array.length);
   return array[random];
 }
-const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
+const storyText = "It was 94 fahrenheit outside, so :insertx: went for a stroll. When they got to :inserty:, they stared in sadness for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
 const insertX = ["Goose the white dog","The Easter Bunny", "Ralphie"] ;
 const insertY = ["Atlas Building","Folsom Field","Gates of Heaven"];
 const insertZ = ["turned to goop","found a penny","licked a popsicle"];
