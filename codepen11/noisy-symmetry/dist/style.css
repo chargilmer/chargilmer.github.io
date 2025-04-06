@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Bytesized&family=Rubik+Broken+Fax&family=Stalinist+One&display=swap");
+
+.bytesized-regular {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family:"Bytesized", sans-serif;
+  background-color: rgb(16, 16, 145);
+  color: #43baf1;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-size: x-large;
+}
+
+.settings {
+  position: fixed;
+  left: 1em; top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  
+  input {
+    padding: 0.5em;
+    background: #84deea;
+    font: inhrit;
+    color: #318bb4;
+    font-family: "Bytesized", sans-serif;
+    font-size: 20px;
+    
+  }
+}
+
+canvas {
+  width: 520px;
+  height: 520px;
+}
