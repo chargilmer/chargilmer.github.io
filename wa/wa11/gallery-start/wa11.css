@@ -1,20 +1,26 @@
 h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
+  color: rgb(42, 148, 148);
 }
 
 body {
   width: 640px;
   margin: 0 auto;
+  background-color: rgba(161, 243, 243, 0.842);
 }
 
 .full-img {
   position: relative;
-  display: block;
+  display: flex;
   width: 640px;
   height: 480px;
-}
 
+}
+.displayed-images {
+  width: 650px;
+  height: 480px;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -26,6 +32,7 @@ body {
 
 button {
   border: 0;
+ 
   background: rgba(150,150,150,0.6);
   text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
