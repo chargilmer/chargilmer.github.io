@@ -44,7 +44,7 @@ body {
   }
 img{
     max-width:900px;
-    align-self: center;
+    padding-left: 300px;
     
 }
 img:hover{
