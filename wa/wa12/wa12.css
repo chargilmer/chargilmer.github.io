@@ -45,6 +45,7 @@ body {
 img{
     align-items: center;
     max-width:900px;
+    padding-left: 300px;
 }
 img:hover{
     animation: 10s;
