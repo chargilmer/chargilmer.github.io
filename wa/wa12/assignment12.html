@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Fact Generator</title>
+  <link rel="stylesheet" href="./wa12.css">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Barriecito&family=Bytesized&family=Rubik+Broken+Fax&family=Stalinist+One&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <h1>Get Your Cat Fact!</h1>
+  <button id="get-cat-fact">press for a cat fact</button>
+
+  <div id="fact-box"> Your Cat Fact Awaits You</div>
+
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <footer>
+    <img src="cat.png" alt="cat">
+   
+  </footer>
+
+  <script>
+    const factBox = document.getElementById('fact-box');
+    const button = document.getElementById('get-cat-fact');
+
+    button.addEventListener('click', async () => {
+      try {
+        const response = await fetch('https://catfact.ninja/fact');
+        const data = await response.json();
+        factBox.textContent = data.fact;
+      } catch (err) {
+        factBox.textContent = 'Oops! Could not fetch a cat fact right now.';
+        console.error(err);
+      }
+    });
+  </script>
+
+</body>
+</html>
