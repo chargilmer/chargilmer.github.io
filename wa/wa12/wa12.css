@@ -43,9 +43,9 @@ body {
     background-color: #a8db61;
   }
 img{
-    align-items: center;
+    
     max-width:900px;
-    padding-left: 300px;
+    padding-left: 500px;
 }
 img:hover{
     animation: 10s;
