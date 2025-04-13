@@ -43,9 +43,8 @@ body {
     background-color: #a8db61;
   }
 img{
-    
     max-width:900px;
-    padding-left: 500px;
+    
 }
 img:hover{
     animation: 10s;
