@@ -15,6 +15,7 @@ body {
     margin:0;
   }
   .h1 {
+    font-family: "Coral Pixels", serif;
     align-items: center;
     display: flex;
     padding: 10px;
@@ -22,7 +23,7 @@ body {
     
   }
   p{
-    font-size: 6px;
+    font-size: 5px;
   }
   input {
     font-size: 40px;
