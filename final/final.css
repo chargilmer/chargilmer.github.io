@@ -14,6 +14,16 @@ body {
     height: 100vh;
     margin:0;
   }
+  .h1 {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-size: 200px;
+    
+  }
+  p{
+    font-size: 6px;
+  }
   input {
     font-size: 40px;
     font-family: "Coral Pixels", serif;

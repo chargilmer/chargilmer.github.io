@@ -50,7 +50,10 @@ const numberMap = {
   enterButton.classList.add('special');
   enterButton.addEventListener('click', () => {
     enterSound.play();
-    input.value = 'WRONG!!!!!!'; 
+    input.value = 'Incorrect!'; 
+    setTimeout(() => {
+        input.value = '';
+    }, 1000);
   });
   keypad.appendChild(enterButton);
 
